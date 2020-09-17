@@ -2,6 +2,8 @@
 <h2 align="left">This A simple Music Player Build with Vanilla UI JS and CSS pure👨‍💻</h2>
 
 ## 🚀 See In Action
+![image](https://user-images.githubusercontent.com/48324076/93534500-1773ae80-f93d-11ea-8869-32aa34397100.png)
+
 [Click here to see it in action](https://baziotabeans.github.io/Music-Player/)
 
 ## 🤞 compatible 

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Music Player</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Beans">
+        <!--CDN for swiper-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <script src="https://kit.fontawesome.com/93146aa192.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/latest/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="content-body">
+            <div class="container">
+                <div class="swipper-music-list">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/Travis Scott - Astroworld.jpg" alt="Travis Scott - Astroworld">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">Astroworld</h2>
+                                    <h3 class="track-artist-name">Travis Scott</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/Yandel - Update.jpg" alt="Yandel - Update">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">Update</h2>
+                                    <h3 class="track-artist-name">Yandel</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/Maluma - FAME.jpg" alt="Maluma - FAME">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">FAME</h2>
+                                    <h3 class="track-artist-name">Maluma</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/Gunna - Wunna.jpeg" alt="Gunna - Wunna">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">Wunna</h2>
+                                    <h3 class="track-artist-name">Gunna</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/The Weeknd - Cover.gif" alt="The Weeknd - 
+                                    My Dear Melancholy">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">
+                                        My Dear Melancholy</h2>
+                                    <h3 class="track-artist-name">The Weeknd</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/The Weeknd - Starboy.jpg" alt="The Weeknd - Starboy">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">Starboy</h2>
+                                    <h3 class="track-artist-name">The Weeknd</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/Drake - Scorpion.jpg" alt="Drake - Scorpion">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">Scorpion</h2>
+                                    <h3 class="track-artist-name">Drake</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/Oliver N'Goma - Adia.jpg" alt="Oliver N'Goma - Adia">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">Adia</h2>
+                                    <h3 class="track-artist-name">Oliver N'Goma</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/Nav - Reckless.jpg" alt="Nav - Reckless">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">Reckless</h2>
+                                    <h3 class="track-artist-name">Nav</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="album-cover">
+                                    <img class="track-cover" src="img/Nav - Good Intentions.jpg" alt="Nav - Good Intentions Cover">
+                                </div>
+                                <div class="track-info">
+                                    <h2 class="track-album">Good Intentions</h2>
+                                    <h3 class="track-artist-name">Nav</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+                </div>
+                <div class="top">
+                    <div class="menu-container">
+                        <div class="menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="search-container">
+                        <span class="search-icon"><i class="fas fa-search"></i></span> 
+                        <input type="text" class="search-music">
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="cover">
+                        <img src="img/The Weeknd - Cover.gif" alt="" class="img-cover-album">
+                    </div>
+                    <!--<div class="beat-effect">
+                        <ul class="toggle-beat-effect">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>-->
+                    <div class="track-details">
+                        <h1 class="track-playing track-playing-name-top">Call Out My Name</h1>
+                        <h3 class="track-artist-album track-album-cover-top">The Weeknd - My Dear Melancholy</h3>
+                            <h3 class="track-genre">Gênero - Trap, Hip Hop, R&B alternativo, R&B Electropop</h3>
+                        <h3 class="track-year-released">2018</h3> 
+                    </div>
+                </div>
+
+                
+
+                <!-- <div class="swipper-container">
+                    <div class="toggle-swipper">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div> -->
+                <!-- <div class="player-container">
+                    <div class="volume-container">
+                        <span class="decrease-volume"><i class="fas fa-minus"></i></span>
+                        <input type="range" min="0" max="100">
+                        <span class="increase-volume"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="slider-seek">
+                        <span class="start-time">0:0</span>
+                        <input type="range" min="0" max="100">
+                        <span class="end-time">0:0</span>
+                    </div>
+                    <div class="controls-container">
+                        <span class="backward"><i class="fas fa-backward"></i></span>
+                        <span class="play"><i class="fas fa-play"></i></span>
+                         <span class="pause"> <i class="fas fa-pause"></i></span> 
+                        <span class="forward"><i class="fas fa-forward"></i></span>
+                    </div>
+                </div> -->
+
+            </div>
+            <div class="container-bottom">
+                <!--Back1-->
+                <!--Back1-->
+                <div class="beat-effect "> <!--active-->
+                    <ul class="toggle-beat-effect">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="details">
+                    <h1 class="track-playing">Call Out My Name</h1>
+                    <h3 class="track-artist-album">The Weeknd - My Dear Melancholy</h3>
+                    <!-- <h3 class="track-genre">Gênero - Trap, Hip Hop, R&B alternativo, R&B Electropop</h3>
+                    <h3 class="track-year-released">2018</h3>  -->
+                </div>
+                <div class="player-container">
+                    <div class="player-container-mode">
+                        <!-- <div class="beat-effect">
+                            <ul class="toggle-beat-effect">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div> -->
+                        <div class="player-container-mode-top">
+                            <span class="track-playing-name">Call Out My Name</span>
+                            <div class="volume-container">
+                                <span class="decrease-volume"><i class="fas fa-minus"></i></span>
+                                <input type="range" min="0" max="100" value="0" class="seek_volume">
+                                <span class="increase-volume"><i class="fas fa-plus"></i></span>
+                            </div> 
+                        </div>
+                        <div class="slider-seek-controls-container">
+                            <div class="slider-seek">
+                                <span class="start-time">0:0</span>
+                                <input type="range" min="0" max="100" value="0" class="seek_audio">
+                                <span class="end-time">0:0</span>
+                            </div>
+                            <div class="controls-container">
+                                <span class="backward"><i class="fas fa-backward"></i></span>
+                                <!--<span class="play"><i class="fas fa-play"></i></span>-->
+                                <span class="control-mode play">
+                                    <input type="checkbox" id="play">
+                                    <label class="play" for="play"></label>
+                                    <!-- <i class="fas fa-pause"></i> -->
+                                </span>
+                                <span class="forward"><i class="fas fa-forward"></i></span>
+                            </div>
+                            <div class="audio-play">
+                                <audio id="audio" controls>
+                                    
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer -->
+                <div class="footer">
+                    <div class="option">
+                        <span class="favorite-container">
+                            <input type="checkbox">
+                            <span class="favorite"></span>
+                        </span>
+                        <span class="random-container">
+                            <input type="checkbox">
+                            <span class="random"></span>
+                        </span>
+                        <span class="volume-mute-container">
+                            <input type="checkbox">
+                            <span class="volume-mute"></span>
+                        </span>
+                        <span class="replay-container">
+                            <input type="checkbox">
+                            <span class="replay"></span>
+                        </span>
+                        <span class="ellipsis-h-container">
+                            <input type="checkbox">
+                            <span class="ellipsis-h"></span>
+                        </span>
+                    </div>
+                </div>  
+                <div class="track-list-player">
+                    <table>
+                       <!-- <tr class="track-active-play">
+                            <td class="track-number"><span>1</span></td>
+                            <td class="track-name"><span>Call Out My Name</span></td>
+                            <td class="track-duration"><span>3:48</span></td>
+                            <td class="track-favorite">
+                                <input type="checkbox">
+                                <span class="favorite">
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td class="track-number"><span>2</span></td>
+                            <td class="track-name"><span>Try Me</span></td>
+                            <td class="track-duration"><span>3:42</span></td>
+                            <td class="track-favorite">
+                                <input type="checkbox">
+                                <span class="favorite">
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td class="track-number"><span>3</span></td>
+                            <td class="track-name"><span>Wasted Times</span></td>
+                            <td class="track-duration"><span>3:41</span></td>
+                            <td class="track-favorite">
+                                <input type="checkbox">
+                                <span class="favorite">
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td class="track-number"><span>4</span></td>
+                            <td class="track-name"><span>Was Never There (feat. Gesaffelstein)</span></td>
+                            <td class="track-duration"><span>4:02</span></td>
+                            <td class="track-favorite">
+                                <input type="checkbox">
+                                <span class="favorite">
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td class="track-number"><span>5</span></td>
+                            <td class="track-name"><span>Hurt You (feat. Gesaffelstein)</span></td>
+                            <td class="track-duration"><span>3:51</span></td>
+                            <td class="track-favorite">
+                                <input type="checkbox">
+                                <span class="favorite">
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td class="track-number"><span>6</span></td>
+                            <td class="track-name"><span>Privilege</span></td>
+                            <td class="track-duration"><span>2:51</span></td>
+                            <td class="track-favorite">
+                                <input type="checkbox">
+                                <span class="favorite">
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td class="track-number"><span>6</span></td>
+                            <td class="track-name"><span>Privilege</span></td>
+                            <td class="track-duration"><span>2:51</span></td>
+                            <td class="track-favorite">
+                                <input type="checkbox">
+                                <span class="favorite">
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td class="track-number"><span>6</span></td>
+                            <td class="track-name"><span>Privilege</span></td>
+                            <td class="track-duration"><span>2:51</span></td>
+                            <td class="track-favorite">
+                                <input type="checkbox">
+                                <span class="favorite">
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td class="track-number"><span>6</span></td>
+                            <td class="track-name"><span>Privilege</span></td>
+                            <td class="track-duration"><span>2:51</span></td>
+                            <td class="track-favorite">
+                                <input type="checkbox">
+                                <span class="favorite">
+                            </span></td>
+                        </tr> -->
+                    </table>
+                </div> 
+            </div>
+        </div>
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+        <script src="js/swiper_effect.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -13,12 +13,12 @@
 ## 💻 Technologies
 
 - [Javacript Vanilla](https://www.w3schools.com/js/)
-- [HTML 5]
+- [HTML 5](https://www.w3schools.com/html/)
 - [CSS3](https://www.w3schools.com/css/)
 - [Swipper.js](https://swiperjs.com/)
 ## 🚀 Features
 
-- To Listin Your Track List
+- To Listen Your Track List
 ## 👷 How to run
 ```
 #1 Go to the main.js file in the js folder and change the track_collection object 

@@ -1,18 +1,6 @@
 <h1 align="left"> Music Player (Beans Version) </h1>
 <h2 align="left">This A simple Music Player Build with Vanilla UI JS and CSS pure👨‍💻</h2>
-```
-    * * * * * *          * * * * * *  *     * * * * * * *    * * * * *         *  * *         *   *  *
-    *           *        *            *     *           *    *         *       *    *      *           *   
-    *            *       *      *  *  *     *   * * *   *    *          *      *    *     *      * *    *  
-    *            *       *      *           *   *   *   *    *           *     *    *     *     *    * * *     
-    *           *        *      *  *  *     *   * * *   *    *     * *    *    *    *       *      *       
-    *         *          *            *     *           *    *     *  *    *   *    *          *     *    
-    *           *        *      *  *  *     *   * * *   *    *     *   *    *  *    *            *    *
-    *            *       *      *           *   *   *   *    *     *    *    * *    *       * *    *    * 
-    *            *       *      *  *  *     *   *   *   *    *     *     *          *      *    *      *
-    *           *        *            *     *   *   *   *    *     *      *         *        *        *
-    * * * * * *          * * * * * *  *     * * *   * * *    * * * *       * * * *  *           *  *
-```
+
 ## 🤞 compatible 
 - Google
 - Edge (Some Bugs)

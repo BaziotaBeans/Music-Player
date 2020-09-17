@@ -1,6 +1,9 @@
 <h1 align="left"> Music Player (Beans Version) </h1>
 <h2 align="left">This A simple Music Player Build with Vanilla UI JS and CSS pure👨‍💻</h2>
 
+## 🚀 See In Action
+[Click here to see it in action](https://baziotabeans.github.io/Music-Player/)
+
 ## 🤞 compatible 
 - Google
 - Edge (Some Bugs)
@@ -12,6 +15,7 @@
 - [CSS3](https://www.w3schools.com/css/)
 - [Swipper.js](https://swiperjs.com/)
 ## 🚀 Features
+
 - To Listin Your Track List
 ## 👷 How to run
 ```

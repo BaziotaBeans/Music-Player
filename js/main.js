@@ -71,38 +71,38 @@ let track_collection = {
             gender: 'Trap, Hip Hop, R&B alternativo, R&B Electropop',
             year_realesed: '2018',
             album_name: 'My Dear Melancholy',
-            cover: '../img/The Weeknd - Cover.gif',
+            cover: 'img/The Weeknd - Cover.gif',
             favorite_track_list: true,
             url: [
                 {
                     track_name: 'Call Out My Name',
-                    track_path: '../audio/My Dear Melancholy/01. Call Out My Name.mp3',
+                    track_path: 'audio/My Dear Melancholy/01. Call Out My Name.mp3',
                     favorite: true
                     
                 },
                 {
                     track_name: 'Try Me',
-                    track_path: '../audio/My Dear Melancholy/02. Try Me.mp3',
+                    track_path: 'audio/My Dear Melancholy/02. Try Me.mp3',
                     favorite: false
                 },
                 {
                     track_name: 'Wasted Times',
-                    track_path: '../audio/My Dear Melancholy/03. Wasted Times.mp3',
+                    track_path: 'audio/My Dear Melancholy/03. Wasted Times.mp3',
                     favorite: false
                 },
                 {
                     track_name: 'I Was Never There (feat. Gesaffelstein)',
-                    track_path: '../audio/My Dear Melancholy/04. I Was Never There (feat. Gesaffelstein).mp3',
+                    track_path: 'audio/My Dear Melancholy/04. I Was Never There (feat. Gesaffelstein).mp3',
                     favorite: false
                 },
                 {
                     track_name: 'Hurt You (feat. Gesaffelstein)',
-                    track_path: '../audio/My Dear Melancholy/05. Hurt You (feat. Gesaffelstein).mp3',
+                    track_path: 'audio/My Dear Melancholy/05. Hurt You (feat. Gesaffelstein).mp3',
                     favorite: false
                 },
                 {
                     track_name: 'Privilege',
-                    track_path: '../audio/My Dear Melancholy/06. Privilege.mp3',
+                    track_path: 'audio/My Dear Melancholy/06. Privilege.mp3',
                     favorite: false
                 }                
             ]
@@ -112,38 +112,38 @@ let track_collection = {
             gender: 'Trap, Hip Hop, R&B alternativo, R&B Electropop',
             year_realesed: '2018',
             album_name: 'My Dear Melancholy',
-            cover: '../img/Travis Scott - Astroworld.jpg',
+            cover: 'img/Travis Scott - Astroworld.jpg',
             favorite_track_list: false,
             url: [
                 {
                     track_name: 'Call Out My Name',
-                    track_path: '../audio/My Dear Melancholy/01. Call Out My Name.mp3',
+                    track_path: 'audio/My Dear Melancholy/01. Call Out My Name.mp3',
                     favorite: false
                     
                 },
                 {
                     track_name: 'Try Me',
-                    track_path: '../audio/My Dear Melancholy/02. Try Me.mp3',
+                    track_path: 'audio/My Dear Melancholy/02. Try Me.mp3',
                     favorite: false
                 },
                 {
                     track_name: 'Wasted Times',
-                    track_path: '../audio/My Dear Melancholy/03. Wasted Times.mp3',
+                    track_path: 'audio/My Dear Melancholy/03. Wasted Times.mp3',
                     favorite: false
                 },
                 {
                     track_name: 'I Was Never There (feat. Gesaffelstein)',
-                    track_path: '../audio/My Dear Melancholy/04. I Was Never There (feat. Gesaffelstein).mp3',
+                    track_path: 'audio/My Dear Melancholy/04. I Was Never There (feat. Gesaffelstein).mp3',
                     favorite: false
                 },
                 {
                     track_name: 'Hurt You (feat. Gesaffelstein)',
-                    track_path: '../audio/My Dear Melancholy/05. Hurt You (feat. Gesaffelstein).mp3',
+                    track_path: 'audio/My Dear Melancholy/05. Hurt You (feat. Gesaffelstein).mp3',
                     favorite: false
                 },
                 {
                     track_name: 'Privilege',
-                    track_path: '../audio/My Dear Melancholy/06. Privilege.mp3',
+                    track_path: 'audio/My Dear Melancholy/06. Privilege.mp3',
                     favorite: false
                 }                
             ]
